@@ -1,0 +1,82 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  position: relative;
+}
+
+.menu__title {
+  max-width: 780px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: auto;
+}
+
+.menu__subtitle {
+  max-width: 780px;
+  margin: 24px auto 100px;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  margin: auto;
+}
+
+.menu__cards-beverages {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.menu__cards-baked {
+  margin: 100px auto;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 32px;
+  margin-top: 0;
+}
+
+.card__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.card__list-item {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__list-divider {
+  border-bottom: 0.5px solid black;
+  height: 16px;
+  margin: 0 10px;
+  flex-grow: 1;
+}
