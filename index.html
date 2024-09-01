@@ -92,7 +92,57 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="book-a-table"></section>
+        <section class="reservation" id="book-a-table">
+          <h2 class="reservation__title">Book a table</h2>
+
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="input-name" class="form__label">Name *</label>
+              <input
+                type="text"
+                class="form__input"
+                id="input-name"
+                placeholder="Name Surname"
+              />
+              <label for="number-of-guests" class="form__label"
+                >Number of guests *</label
+              >
+              <input
+                type="Number"
+                min="1"
+                max="8"
+                class="form__input"
+                id="number-of-guests"
+                placeholder="1-8"
+              />
+              <label for="date-and-time" class="form__label"
+                >Date & time *</label
+              >
+              <input
+                type="datetime-local"
+                class="form__input"
+                id="date-and-time"
+              />
+              <label for="input-email" class="form__label">Your email *</label>
+              <input
+                type="email"
+                class="form__input"
+                id="input-email"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <button type="submit" class="form__button">Book a table</button>
+
+            <label for="terms-agree" class="form__label"
+              ><input
+                type="checkbox"
+                class="form__input form__input-checkbox"
+                name="terms-agree"
+                id="terms-agree"
+              />I agree with the terms of use</label
+            >
+          </form>
+        </section>
         <section class="menu" id="our-menu"></section>
         <section class="about" id="contacts"></section>
       </main>
