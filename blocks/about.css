@@ -1,10 +1,12 @@
 .about {
+  font-family: "Inter", Arial, sans-serif;
   background-color: #0a2850;
   color: #fff;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
   display: flex;
+  z-index: 1;
 }
 
 .about__title {
@@ -18,7 +20,7 @@
 }
 
 .about__content {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -44,16 +46,10 @@
   position: absolute;
   top: -152px;
   left: -129px;
+  z-index: -1;
 }
 
 .about__circle_animation_blurred {
-  background-color: #1878dc;
-  width: 426px;
-  height: 426px;
-  border-radius: 50%;
-  position: absolute;
-  top: -152px;
-  left: -129px;
   animation: pulsate 1.3s ease-in-out 0s infinite;
 }
 
